@@ -553,7 +553,7 @@ function jsonToGeoJSON(jsonData: { districts: District[] }): GeoJSON.FeatureColl
 
 const BangladeshDistrictsMap: React.FC = () => {
  useEffect(() => {
-  mapboxgl.accessToken = "pk.eyJ1IjoieWFkYWJzZCIsImEiOiJjbGFvemljbmowcWVmM3ZucGFxeWJrendyIn0.L7K2jreQX7lpYRWIvHiYcQ";
+  mapboxgl.accessToken = "pk.eyJ1IjoieWFkYWJzZCIsImEiOiJjbGFvemljbmowcWVmM3ZucGFxeWJrendyIn0";
   const map: Map = new mapboxgl.Map({
    container: 'map-container',
    style: 'mapbox://styles/mapbox/streets-v11',
