@@ -1,0 +1,23 @@
+.product-list {
+  margin: 20px;
+}
+
+.product-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-item {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.product-name {
+  font-weight: bold;
+}
+
+.product-price {
+  color: #007bff; /* Blue color for price */
+}
